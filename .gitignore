@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# MacOS system files
+.DS_Store
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Optional eslint cache
+.eslintcache
+
+# Coverage directory used by testing tools like Jest or Cypress
+coverage/
+
+# Vue-specific files
+**/vue.config.js
